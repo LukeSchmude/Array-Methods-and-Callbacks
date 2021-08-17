@@ -1,3 +1,4 @@
+const { template } = require('@babel/core');
 const { fifaData } = require('./fifa.js')
 
 
@@ -113,12 +114,12 @@ Use the higher order function getAverageGoals to do the following:
 */
 
 // getFinalscb, 
-function getAverageGoals(getFinalscb) {
-   /* code here */
-   //use .reduce add up all the home team and away tem goals and then divide by length
-   //hint if you want the second decimal look up .toFixed(2);
-   //divde by the length of the array
-}
+function getAverageGoals() {}
+//    const totalGoals = data.reduce(function(acc, item) {
+//     return acc + item['Home Team Goals'] + item['Away Team Goals'] /
+//    },0);
+//    return totalGoals.toFixed(2)
+// }
 
 console.log(getAverageGoals(getFinals(fifaData)));
 
